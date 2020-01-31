@@ -42,6 +42,10 @@ a.clickyBlock {
     z-index: 2;
 }
 
+a {
+    color: white;
+}
+
 /*Project Card Styles*/
 
 div.project-card {
