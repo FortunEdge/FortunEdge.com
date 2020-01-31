@@ -25,7 +25,7 @@ div.center {
 }
 
 div.section {
-    padding: 20px 0px 20px 0px;
+    padding: 20px;
 }
 
 div.section.dark {
@@ -44,6 +44,10 @@ a.clickyBlock {
 
 a {
     color: white;
+}
+
+a:visited {
+    color: #ddd;
 }
 
 /*Project Card Styles*/
