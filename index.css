@@ -50,7 +50,45 @@ a:visited {
     color: #ddd;
 }
 
-/*Project Card Styles*/
+/* Social Card Styles */
+div.social-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: auto;
+}
+
+div.social-item {
+    position: relative;
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 0.25em 0em 0.25em 0em ;
+    width: 100%;
+    background-color: #343367;
+}
+
+div.social-item:hover {
+    background-color: #4e4c9c;
+}
+
+div.social-label {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+div.social-label > h3 {
+    font-size: x-large;
+}
+
+div.social-icon {
+    flex-basis: 10%;
+    display: flex;
+    font-size: xxx-large;
+    margin: 0.25em;
+}
+
+/*Project Card Styles */
 
 div.project-card {
     position: relative;
